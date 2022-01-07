@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -19,105 +17,105 @@
 	</properties>
 	<dependencies>
 
-<!--		&lt;!&ndash; Spring MVC &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-web</artifactId>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; Spring MVC &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>org.springframework.boot</groupId>-->
+		<!--			<artifactId>spring-boot-starter-web</artifactId>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; Dev Tools &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-devtools</artifactId>-->
-<!--			<scope>runtime</scope>-->
-<!--			<optional>true</optional>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; Dev Tools &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>org.springframework.boot</groupId>-->
+		<!--			<artifactId>spring-boot-devtools</artifactId>-->
+		<!--			<scope>runtime</scope>-->
+		<!--			<optional>true</optional>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; Lombok: https://projectlombok.org/ &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.projectlombok</groupId>-->
-<!--			<artifactId>lombok</artifactId>-->
-<!--			<version>1.18.22</version>-->
-<!--			<scope>provided</scope>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; Lombok: https://projectlombok.org/ &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>org.projectlombok</groupId>-->
+		<!--			<artifactId>lombok</artifactId>-->
+		<!--			<version>1.18.22</version>-->
+		<!--			<scope>provided</scope>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; Test &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-test</artifactId>-->
-<!--			<scope>test</scope>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; Test &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>org.springframework.boot</groupId>-->
+		<!--			<artifactId>spring-boot-starter-test</artifactId>-->
+		<!--			<scope>test</scope>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; JUnit Test &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>junit</groupId>-->
-<!--			<artifactId>junit</artifactId>-->
-<!--			<version>4.13.2</version>-->
-<!--			<scope>test</scope>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; JUnit Test &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>junit</groupId>-->
+		<!--			<artifactId>junit</artifactId>-->
+		<!--			<version>4.13.2</version>-->
+		<!--			<scope>test</scope>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; MySQL &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>mysql</groupId>-->
-<!--			<artifactId>mysql-connector-java</artifactId>-->
-<!--			<scope>runtime</scope>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; MySQL &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>mysql</groupId>-->
+		<!--			<artifactId>mysql-connector-java</artifactId>-->
+		<!--			<scope>runtime</scope>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; JPA&ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-data-jpa</artifactId>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; JPA&ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>org.springframework.boot</groupId>-->
+		<!--			<artifactId>spring-boot-starter-data-jpa</artifactId>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; Cache SpringBoot &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-cache</artifactId>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; Cache SpringBoot &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>org.springframework.boot</groupId>-->
+		<!--			<artifactId>spring-boot-starter-cache</artifactId>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; Cache Hibernate &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.hibernate</groupId>-->
-<!--			<artifactId>hibernate-ehcache</artifactId>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; Cache Hibernate &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>org.hibernate</groupId>-->
+		<!--			<artifactId>hibernate-ehcache</artifactId>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; Model Mapper: http://modelmapper.org/ &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.modelmapper</groupId>-->
-<!--			<artifactId>modelmapper</artifactId>-->
-<!--			<version>2.4.5</version>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; Model Mapper: http://modelmapper.org/ &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>org.modelmapper</groupId>-->
+		<!--			<artifactId>modelmapper</artifactId>-->
+		<!--			<version>2.4.5</version>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; GraphQL &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>com.graphql-java</groupId>-->
-<!--			<artifactId>graphql-java-tools</artifactId>-->
-<!--			<version>5.2.4</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>com.graphql-java</groupId>-->
-<!--			<artifactId>graphql-spring-boot-starter</artifactId>-->
-<!--			<version>5.0.2</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>com.graphql-java</groupId>-->
-<!--			<artifactId>graphql-spring-boot-test</artifactId>-->
-<!--			<version>5.0.2</version>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; GraphQL &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>com.graphql-java</groupId>-->
+		<!--			<artifactId>graphql-java-tools</artifactId>-->
+		<!--			<version>5.2.4</version>-->
+		<!--		</dependency>-->
+		<!--		<dependency>-->
+		<!--			<groupId>com.graphql-java</groupId>-->
+		<!--			<artifactId>graphql-spring-boot-starter</artifactId>-->
+		<!--			<version>5.0.2</version>-->
+		<!--		</dependency>-->
+		<!--		<dependency>-->
+		<!--			<groupId>com.graphql-java</groupId>-->
+		<!--			<artifactId>graphql-spring-boot-test</artifactId>-->
+		<!--			<version>5.0.2</version>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; GraphiQL &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>com.graphql-java</groupId>-->
-<!--			<artifactId>graphiql-spring-boot-starter</artifactId>-->
-<!--			<version>5.0.2</version>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; GraphiQL &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>com.graphql-java</groupId>-->
+		<!--			<artifactId>graphiql-spring-boot-starter</artifactId>-->
+		<!--			<version>5.0.2</version>-->
+		<!--		</dependency>-->
 
-<!--		&lt;!&ndash; PlayGround &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>com.graphql-java-kickstart</groupId>-->
-<!--			<artifactId>playground-spring-boot-starter</artifactId>-->
-<!--			<version>11.1.0</version>-->
-<!--		</dependency>-->
+		<!--		&lt;!&ndash; PlayGround &ndash;&gt;-->
+		<!--		<dependency>-->
+		<!--			<groupId>com.graphql-java-kickstart</groupId>-->
+		<!--			<artifactId>playground-spring-boot-starter</artifactId>-->
+		<!--			<version>11.1.0</version>-->
+		<!--		</dependency>-->
 
 		<!-- Spring MVC -->
 		<dependency>
@@ -208,6 +206,7 @@
 			<version>6.0.1</version>
 		</dependency>
 
+
 	</dependencies>
 
 	<build>
@@ -215,6 +214,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.1.0</version>
 			</plugin>
 		</plugins>
 	</build>
